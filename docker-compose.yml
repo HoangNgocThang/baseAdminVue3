@@ -1,0 +1,7 @@
+version: '2'
+services:
+  ew-web-org:
+    build: .
+    image: ew-web-org:latest
+
+

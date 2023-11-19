@@ -1,0 +1,126 @@
+@import "toastr";
+@import "./nprogress";
+@import "theme";
+
+.side-menu .fa, .side-menu .fas {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.margin-right-auto {
+    margin-right: auto;
+}
+
+.margin-left-auto {
+    margin-left: auto;
+}
+
+
+.form-inline-2 .form-group {
+    margin-left: 10px;
+    label {
+        margin-right: 5px;
+    }
+}
+
+.btn {
+    outline: none;
+    border: 0;
+    &:active, &:focus {
+        outline: none;
+    }
+}
+
+
+.btn-purple {
+    background-color: #8950FC;
+    border-color: #8950FC;
+}
+
+.checked-status-0 {
+    color: green;
+    font-weight: bold;
+}
+
+.checked-status-1 {
+    color: red;
+    font-weight: bold;
+}
+
+.error-label {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: red;
+}
+
+.error-input,
+.error-input:hover,
+.error-input:focus,
+.error-input:active {
+    border: 1px solid red !important;
+    outline: 0;
+    box-shadow: unset;
+}
+
+
+.error {
+    color: red;
+    display: block;
+}
+.transfer-status {
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+.app-link {
+    color: #1292dd;
+}
+.transfer-status-0 {
+    background-color:#1292dd;
+}
+
+.transfer-status-2 {
+    background-color: #e5c10a;
+}
+
+.transfer-status-1 {
+    background-color: #0cab39;
+}
+
+.transfer-status-3 {
+    background-color: #ccc;
+}
+
+
+.form-control-select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.flex-center {
+    display: flex;justify-content: center
+}
+
+.text-left {
+    text-align: left;
+}
+
+.btn-ok {
+    width: 64px;
+    height: 48px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn-cancel {
+    background-color: #3f3a3a;
+    color: white;
+    &:hover,&:active {
+        color: white;
+    }
+}
